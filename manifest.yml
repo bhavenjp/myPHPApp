@@ -1,0 +1,9 @@
+---
+applications:
+- name: myPHPApp
+  host: myPHPApp5678
+  memory: 128M
+  instances: 1
+  buildpack: php_buildpack
+  path: .
+

@@ -1,0 +1,11 @@
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ <?php echo '<H2>Hello World - v0.2</H2>'; ?> 
+         $ip = getenv("CF_INSTANCE_ADDR") ;
+         echo "Your IP is " . $ip;
+ ?>
+ </body>
+</html>
